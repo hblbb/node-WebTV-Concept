@@ -1,0 +1,62 @@
+<!document html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ hello }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script src="/socket.io/socket.io.js" type="text/javascript"></script>
+        <script>
+            
+            // Create connection
+            var socket = io.connect("http://" + location.host);
+
+            $(document).ready(function() {
+
+                // Hidden Youtube Video iFrame
+                $("#qrcode").hide();
+
+                // Metro UI Style
+                $(".change_video").css({
+                    'background': 'cornflowerblue',
+                    'display': 'block',
+                    'margin': '20px',
+                    'padding': '50px',
+                    'text-align': 'left',
+                    "text-size": '20px'
+                });
+
+                $(".change_video").click(function() {
+
+                    // Random choose videos
+                    var videos = ['biIpyTtldX0', 'LqRNwsZRGdU', 'dp5V2tXoNx8'];
+                    var source = videos[Math.floor(Math.random() * videos.length)]; 
+
+                    socket.emit('send', {
+                        key: $("#qrcode").html(),
+                        action: 'show',
+                        src: 'http://www.youtube.com/watch?v=' + source
+                    }); 
+                });
+
+            });
+
+            $(window).load(function() {
+                socket.emit('send', {
+                    key: $("#qrcode").html(),
+                    action: 'enter'
+                }); 
+            });
+
+        </script>
+    </head>
+    <body>
+        <!-- Pairs Panel -->
+        <div id="qrcode">{{ key }}</div>
+        
+        <!-- Main Control Panel-->
+        <div id="main">
+            <div class="change_video">Random Change Video</div>
+        </div>
+    </body>
+</html>
