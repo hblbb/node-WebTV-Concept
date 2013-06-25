@@ -30,7 +30,8 @@ Usage
 
 Workflow
 --------
-![SceenShot](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](http://www.youtube.com/watch?v=KGWPSMtmtKA)
+Click the video below
+[![ScreenShot](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](http://www.youtube.com/watch?v=KGWPSMtmtKA)
 
 Sugar
 -----
