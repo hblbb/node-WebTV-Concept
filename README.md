@@ -27,11 +27,12 @@ Usage
 3. Run the application
 
         node server.js
+        
+4. Open browser e.g localhost:8080
 
 Workflow
 --------
-Click the video below
-[![ScreenShot](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](http://www.youtube.com/watch?v=KGWPSMtmtKA)
+Click the [video](http://www.youtube.com/watch?v=KGWPSMtmtKA)
 
 Sugar
 -----
@@ -48,4 +49,4 @@ Frameworks and Library
 License
 -------
 ![ScreenShot](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)
-All codes of this project is under http://creativecommons.org/licenses/by-nc-sa/3.0/
+All codes of this project is under [CC BY-NC-SA 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/)
