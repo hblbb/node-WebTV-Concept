@@ -48,5 +48,5 @@ Frameworks and Library
 
 License
 -------
-![ScreenShot](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)
+![ScreenShot](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)  
 All codes of this project is under [CC BY-NC-SA 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/)
