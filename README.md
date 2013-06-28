@@ -34,19 +34,30 @@ Workflow
 --------
 Click the [video](http://www.youtube.com/watch?v=KGWPSMtmtKA)
 
+1. Enable server (Run application)
+2. Render the WebTV Page
+3. Mobile scan the QRCode and then open the URL linking
+4. Render the Mobile Page
+5. Click the button and then re-render the content of WebTV
+
 Sugar
 -----
 Patrick Wang written an interactive demo using Node.js and PHP.
-Here is the article http://patw.idv.tw/blog/archives/566
+Here is the [article](http://patw.idv.tw/blog/archives/566)
 
 Frameworks and Library
 ----------------------
 
-1. Node.js: Express, Swig, Socket.io
-2. Google Charts API
-3. JavaScript Math.UUID function
+- Node.js
+    - [Express](http://expressjs.com/)
+    - [Swig](http://paularmstrong.github.io/swig/)
+    - [Socket.io](http://socket.io/)
+- Google Charts API
+    - [QRCode Infographics](https://developers.google.com/chart/infographics/?hl=zh-TW)
+- JavaScript [Math.UUID](http://www.broofa.com/Tools/Math.uuid.js) function
+    - MIT and GPL license
 
 License
 -------
-![ScreenShot](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)  
+![ScreenShot](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)
 All codes of this project is under [CC BY-NC-SA 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/)
